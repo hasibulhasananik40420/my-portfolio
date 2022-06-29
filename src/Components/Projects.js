@@ -58,12 +58,12 @@ const Projects = () => {
 
     //modal 6
 
-   
+
 
     return (
 
 
-        <div className='md:mx-16 mt-24 mb-16 w-full overflow-hidden' id='project'>
+        <div className='md:mx-8 mt-24 mb-16 w-full overflow-hidden' id='project'>
             <h1 className='text-3xl font-bold font-serif text-center'>My Projects</h1>
             <div className='flex items-center justify-center'>
                 <div className=' border border-black  bg-red-600 w-8 rounded-md mt-[-20px]'></div>
@@ -73,8 +73,8 @@ const Projects = () => {
             <div className='grid grid-cols-1 md:grid-cols-3 gap-6 '>
 
                 <div data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" class="card md:w-96 bg-base-100 shadow-md">
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" class="card md:w-96 bg-base-100 shadow-md">
                     <figure><img src={ss11} alt="Shoes" /></figure>
                     <h1 className='ml-3'>Professional Bicycle parts manufactorers website</h1>
                     <div class="card-actions justify-center mb-6 mt-2">
@@ -146,7 +146,7 @@ const Projects = () => {
 
 
 
-                <div  data-aos="zoom-in-up" class="card md:w-96 bg-base-100 shadow-md">
+                <div data-aos="zoom-in-up" class="card md:w-96 bg-base-100 shadow-md">
                     <figure><img src={ss13} alt="Shoes" /></figure>
                     <h1 className='ml-3'>Desgin agency service provider website</h1>
                     <div class="card-actions justify-center mb-6 mt-2">
@@ -164,13 +164,13 @@ const Projects = () => {
                                 onOk={() => setModal2Visible(false)}
                                 onCancel={() => setModal2Visible(false)}
                             >
-                                 <figure><img src={ss13} alt="Shoes" /></figure>
-                                  <h1 className='ml-3'>Desgin agency service provider website
-                                  Authorization and authorization Implementation
-                                  Admin and user inter Connection system
-                                   Connect Stripe Payment Method system with card payment.
-                                  </h1>
-                                  <a href="https://desgin-agency.web.app/"> <button class="badge badge-outline cursor-pointer ml-2" > Live Site</button> </a>
+                                <figure><img src={ss13} alt="Shoes" /></figure>
+                                <h1 className='ml-3'>Desgin agency service provider website
+                                    Authorization and authorization Implementation
+                                    Admin and user inter Connection system
+                                    Connect Stripe Payment Method system with card payment.
+                                </h1>
+                                <a href="https://desgin-agency.web.app/"> <button class="badge badge-outline cursor-pointer ml-2" > Live Site</button> </a>
                                 <a href="https://github.com/hasibulhasananik40420/desgin-agency"><button class="badge badge-outline cursor-pointer ml-2" > Client Repository</button> </a>
                                 <a href="https://github.com/hasibulhasananik40420/desgin-agency-server"> <button class="badge badge-outline cursor-pointer ml-2" > Server Repository</button> </a>
 
@@ -181,8 +181,8 @@ const Projects = () => {
 
 
 
-                <div  data-aos="fade-up"
-     data-aos-anchor-placement="top-center" class="card md:w-96 bg-base-100 shadow-md">
+                <div data-aos="fade-up"
+                    data-aos-anchor-placement="top-center" class="card md:w-96 bg-base-100 shadow-md">
                     <figure><img src={ss14} alt="Shoes" /></figure>
                     <h1 className='ml-3'>Traditional Barbar Shop Booking Service Website</h1>
                     <div class="card-actions justify-center mb-6 mt-2">
@@ -201,17 +201,17 @@ const Projects = () => {
                                 onOk={() => setModal1Visible(false)}
                                 onCancel={() => setModal1Visible(false)}
                             >
-                                 <figure><img src={ss14} alt="Shoes" /></figure>
-                                 <h1 className='ml-3'>Traditional Barbar Shop website
-                                 Implement Authorization and authorization on Firebase.
-                                 User If he/she want to book service . It's a professional service center.
-                    
-                                 </h1>
-                                 <a href="https://assignment-10-48fb0.web.app/"> <button class="badge badge-outline cursor-pointer ml-2" > Live Site</button> </a>
+                                <figure><img src={ss14} alt="Shoes" /></figure>
+                                <h1 className='ml-3'>Traditional Barbar Shop website
+                                    Implement Authorization and authorization on Firebase.
+                                    User If he/she want to book service . It's a professional service center.
+
+                                </h1>
+                                <a href="https://assignment-10-48fb0.web.app/"> <button class="badge badge-outline cursor-pointer ml-2" > Live Site</button> </a>
                                 <a href="https://github.com/hasibulhasananik40420/Izmo-stock-client"><button class="badge badge-outline cursor-pointer ml-2" > Client Repository</button> </a>
                                 <a href="https://github.com/hasibulhasananik40420/Izmo-stock-server"> <button class="badge badge-outline cursor-pointer ml-2" > Server Repository</button> </a>
 
-                                  
+
                             </Modal>
 
                         </div>
@@ -219,21 +219,21 @@ const Projects = () => {
                 </div>
 
                 <div data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" class="card w-full md:w-96 bg-base-100 shadow-md">
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" class="card w-full md:w-96 bg-base-100 shadow-md">
                     <figure><img src={ss5} alt="Shoes" /></figure>
-                    <h1 className='ml-3'>Professional photography website . 
-                    
+                    <h1 className='ml-3'>Professional photography website .
+
                     </h1>
                     <div class="card-actions justify-center mb-6 mt-2">
                         <div>
 
-                             {/* <Button onClick={() => setVisibles(true)} type="primary" >
+                            {/* <Button onClick={() => setVisibles(true)} type="primary" >
 
                                 Details
                             </Button> */}
 
-                             <button onClick={() => setVisibles(true)} className='text-blue-500 border border-blue-500 px-8 py-2 font-semibold  hover:bg-transparent hover:bg-blue-500 hover:text-white animate-pulse'> Details</button>
+                            <button onClick={() => setVisibles(true)} className='text-blue-500 border border-blue-500 px-8 py-2 font-semibold  hover:bg-transparent hover:bg-blue-500 hover:text-white animate-pulse'> Details</button>
 
                             <Modal
                                 title="Professional photography website"
@@ -257,14 +257,14 @@ const Projects = () => {
 
 
                 <div data-aos="fade-up"
-     data-aos-duration="3000" class="card w-full md:w-96 bg-base-100 shadow-md">
+                    data-aos-duration="3000" class="card w-full md:w-96 bg-base-100 shadow-md">
                     <figure><img src={ss10} alt="Shoes" /></figure>
                     <h1 className='ml-3'>The mobile planet website </h1>
                     <div class="card-actions justify-center mb-6 mt-2">
                         <div className=''>
 
-                        {/* https://agitated-heisenberg-275ee3.netlify.app/ */}
-{/* 
+                            {/* https://agitated-heisenberg-275ee3.netlify.app/ */}
+                            {/* 
                         <Button type="primary">
                                 Details
                             </Button> */}
