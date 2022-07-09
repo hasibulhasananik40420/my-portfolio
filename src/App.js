@@ -6,20 +6,19 @@ import { useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Blogs from './Components/Blogs';
 import Navbar from './Components/Navbar';
-import Navbar2 from './Components/Navbar2';
 function App() {
-  
-  useEffect( ()=>{
+
+  useEffect(() => {
     AOS.init();
-  },[])
+  }, [])
 
   return (
     <div className='w-full overflow-hidden'>
-       <Navbar></Navbar>
+      <Navbar></Navbar>
       <Routes>
-          <Route path='/' element={<Home></Home>}></Route>
+        <Route path='/' element={<Home></Home>}></Route>
         <Route path="/blogs" element={<Blogs />} />
-        
+
       </Routes>
     </div>
   );

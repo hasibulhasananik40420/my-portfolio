@@ -14,12 +14,9 @@ const Header = () => {
     }} className='w-full overflow-hidden '>
       <div className=' mt-6 md:flex md:justify-between md:items-center md:mt-16 md:mx-12 mx-6'>
         <div className='w-full md:w-2/4'>
-          <h1 data-aos-delay='400'
-            data-aos-duration='900' data-aos='fade-left' className='font-bold md:text-5xl text-2xl text-[#FCA61F] font-serif mb-4'>Hy ! I Am</h1>
-          <p data-aos-delay='600'
-            data-aos-duration='800' data-aos='fade-up' className='font-bold md:text-5xl text-2xl text-[#FCA61F] font-serif'>Hasibul Hasan</p>
-          <p data-aos-delay='700'
-            data-aos-duration='900' data-aos='fade-down' className='text-[#fbfcfd] mt-4 text-xsm mb-6'>To gain confidence and fame using my potential in this position, and express my innovative creative
+          <h1 className='font-bold md:text-5xl text-2xl text-[#FCA61F] font-serif mb-4'>Hy ! I Am</h1>
+          <p className='font-bold md:text-5xl text-2xl text-[#FCA61F] font-serif'>Hasibul Hasan</p>
+          <p className='text-[#fbfcfd] mt-4 text-xsm mb-6'>To gain confidence and fame using my potential in this position, and express my innovative creative
             skills for self and company growth. I’m a hardworking and quick learner. I believe hard work is the
             only way to success. Love to learn new technology and try to improve myself.</p>
 
